@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "author": "kabrunko-dev",
+  "developer": "kabrunko-dev",
+  "name": "Wall Ladder",
+  "short_name": "Wall Ladder",
+  "description": "An extension to breakthrough paywall on articles.",
+  "action": {
+    "default_popup": "src/app/popup/popup.html",
+    "default_title": "Wall Ladder"
+  },
+  "background": {
+    "service_worker": "src/app/background.ts"
+  },
+  "permissions": ["activeTab"]
+}

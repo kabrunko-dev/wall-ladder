@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "lib": ["ES6", "DOM"],
+    "types": ["chrome"],
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  }
+}

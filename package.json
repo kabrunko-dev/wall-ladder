@@ -1,0 +1,22 @@
+{
+  "name": "wall-ladder",
+  "description": "An extension to breakthrough paywall on articles.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "kabrunko-dev"
+  },
+  "source": "src/app/popup/popup.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "build:extension": "npm run build manifest.json"
+  },
+  "devDependencies": {
+    "@parcel/config-webextension": "^2.10.3",
+    "@parcel/resolver-glob": "^2.10.3",
+    "@types/chrome": "^0.0.254",
+    "parcel": "^2.10.3",
+    "typescript": "^5.3.3"
+  }
+}
