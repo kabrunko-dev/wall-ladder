@@ -11,10 +11,17 @@ An extension to "break" paywall on articles using three tools: [12ft](https://12
 
 ## ©️ Credits
 
-All the credits for the breaking processes go to the creators of each one of the tools. Please show them your support 👋
+This extension was made possible thanks to all the developers that created these resources. Please show them your support 👋
+
+### Tools
 
 | Tool | Creator |
 |-------|--------|
 |Freedium|[Zhymabek Roman](https://github.com/ZhymabekRoman)|
 |1ft|[Spencer](https://github.com/fired)|
 |12ft|[Thomas Millar](https://twitter.com/thmsmlr)|
+
+### Favicon
+
+The icon generation used [RedKetchup's Favicon Generator](https://redketchup.io/favicon-generator) and [Xoron GmbH's favicon.cc](https://www.favicon.cc/).
+
