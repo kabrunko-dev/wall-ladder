@@ -3,7 +3,7 @@ async function getCurrentTab(): Promise<chrome.tabs.Tab[]> {
   return await chrome.tabs.query(queryOptions);
 }
 
-chrome.runtime.onMessage.addListener(async (message) => {
+chrome.runtime.onMessage.addListener(async (message: string) => {
   if (message === 'curr-tab-btn') {
     const [tab] = await getCurrentTab()
     

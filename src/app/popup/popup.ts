@@ -4,8 +4,8 @@ formBtn!.addEventListener('click', () => {
   const input = document.querySelector('input');
   const select = document.querySelector('select');
 
-  const mediumUrl = input?.value;
-  const ladder = select?.value;
+  const mediumUrl = input!.value;
+  const ladder = select!.value;
 
   if(!ladder || !mediumUrl) return;
 
