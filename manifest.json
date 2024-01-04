@@ -11,7 +11,11 @@
   },
   "action": {
     "default_popup": "src/app/popup/popup.html",
-    "default_title": "Wall Ladder"
+    "default_title": "Wall Ladder",
+    "default_icon": {
+      "16": "src/assets/icons/favicon-16x16.png",
+      "32": "src/assets/icons/favicon-32x32.png"
+    }
   },
   "background": {
     "service_worker": "src/app/background.ts"
