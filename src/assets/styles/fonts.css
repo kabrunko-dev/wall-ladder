@@ -3,3 +3,8 @@
   font-family: 'Single Day';
   src: url('../SingleDay-Regular.ttf');
 }
+
+.inherit-font {
+  font-family: inherit;
+  font-size: inherit;
+}

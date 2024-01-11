@@ -10,27 +10,27 @@
     <h1>Wall Ladder</h1>
     <form>
       <div>
-        <strong for="url"><strong>URL</strong></label>
+        <label for="url"><strong>URL</strong></label>
         <input 
           id="url" 
           type="text" 
           placeholder="Enter article URL"
-          class="shadow inherit-font"
+          class="manual-input text-black shadow inherit-font"
           required />
       </div>
       <div>
-        <strong for="breaker"><strong>Ladder</strong></label>
-        <select id="breaker" class="shadow inherit-font" required>
-          <option value="">Please choose an ladder</option>
-          <option value="https://freedium.cfd/">Freedium</option>
-          <option value="https://1ft.io/">1ft</option>
-          <option value="https://12ft.io/">12ft</option>
+        <label for="breaker"><strong>Ladder</strong></label>
+        <select id="breaker" class="manual-input text-black shadow inherit-font" required>
+          <option class="text-black d-none" value="">Please choose an ladder</option>
+          <option class="text-black" value="https://freedium.cfd/">Freedium</option>
+          <option class="text-black" value="https://1ft.io/">1ft</option>
+          <option class="text-black" value="https://12ft.io/">12ft</option>
         </select>
       </div>
-      <button id="form-btn" class="shadow inherit-font">Ladder</button>
+      <button id="form-btn" class="form-btn shadow inherit-font">Ladder</button>
     </form>
     <hr>
-    <button id="curr-tab-btn" type="button" class="curr shadow inherit-font">
+    <button id="curr-tab-btn" type="button" class="curr-btn shadow inherit-font">
       Ladder Current Tab
     </button>
     <script src="popup.ts" type="module"></script>

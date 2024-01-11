@@ -11,3 +11,7 @@
   --wl-yellow: #FFED66;
   --wl-white: #FFFFEA;
 }
+
+.text-black {
+  color: var(--wl-black);
+}
