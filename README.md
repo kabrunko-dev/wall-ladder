@@ -4,7 +4,7 @@
 
 <h1 align="center">Wall Ladder</h1>
 
-An extension to "break" paywall on articles using three tools: [12ft](https://12ft.io/), [1ft](https://1ft.io/) and [Freedium](https://freedium.cfd/).
+An extension to "break" paywall on articles using three tools: [12ft](https://12ft.io/) and [Freedium](https://freedium.cfd/).
 
 Currently, available on Chrome Web Store ([link](https://chromewebstore.google.com/detail/wall-ladder/jibjmejehigmlahpehiaojhjfddiddcd)).
 
