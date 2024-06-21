@@ -1,5 +1,5 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "version": "1.0.1",
   "author": "kabrunko-dev",
   "name": "Wall Ladder",
@@ -9,7 +9,7 @@
     "16": "src/assets/icons/favicon-16x16.png",
     "32": "src/assets/icons/favicon-32x32.png"
   },
-  "action": {
+  "browser_action": {
     "default_title": "Wall Ladder",
     "default_popup": "src/app/popup/popup.html",
     "default_icon": {
@@ -18,7 +18,7 @@
     }
   },
   "background": {
-    "service_worker": "src/app/background.ts"
+    "scripts": ["src/app/background.ts"]
   },
   "permissions": ["activeTab"]
 }
