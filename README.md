@@ -20,7 +20,6 @@ This extension was made possible thanks to all the developers that created these
 | Tool | Creator |
 |-------|--------|
 |Freedium|[Zhymabek Roman](https://github.com/ZhymabekRoman)|
-|1ft|[Spencer](https://github.com/fired)|
 |12ft|[Thomas Millar](https://twitter.com/thmsmlr)|
 
 ### Favicon
